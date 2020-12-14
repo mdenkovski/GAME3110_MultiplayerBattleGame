@@ -7,7 +7,10 @@ public class BackToLoginBehaviour : MonoBehaviour
 {
     public void OnBackToLoginButtonPressed()
     {
-        Debug.Log("Back To Login Button Pressed");
-        SceneManager.LoadScene("Login");
+
+        NetworkClient client = FindObjectOfType<NetworkClient>();
+        Destroy(client.gameObject);
+        Debug.Log("Back To Start Button Pressed");
+        SceneManager.LoadScene("Start Menu");
     }
 }
