@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterImage: {fileID: 21300000, guid: 45f28e558ebfbc14fb4a489f8548fdcb, type: 3}
   characterName: Noelle
-  healthMax: 800
-  defence: 1000
-  attack: 5
-  love: 40
-  myAbilities: {fileID: 11400000, guid: 157bc98db3969114eab5218013c382ec, type: 2}
+  healthMax: 300
+  defence: 80
+  attack: 20
+  love: 30
+  myAbilities: {fileID: 11400000, guid: 0d29e08700124134a936b5b3cbddd410, type: 2}
